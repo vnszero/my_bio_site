@@ -1,0 +1,153 @@
+p{
+	color:black;
+	text-align: justify;
+	font-size: 20px;
+	font-family: Arial, "Times new roman";
+	padding-right: 150px;
+}
+html{
+	height: 100%;
+}
+
+body{
+	background-color:#FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+
+li{
+	text-align: justify;
+	font-size: 18px;
+	font-family: Arial, "Times new roman";
+}
+
+ul{
+	padding-left: 70px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+	width: 100%;
+	background-image: linear-gradient(to right, #2d3980, #2E8B57);
+	height: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer{
+	width: 100%;
+	background-image: linear-gradient(to right, #2d3980, #2E8B57);
+	color: white;
+	clear: both;
+	height: 50px;
+	text-align: center;
+	font-size:12px;
+	text-shadow:1px 1px 1px #111111;
+	padding-top: 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+h5{
+	color: white;
+	text-shadow:1px 1px 1px #111111;
+	text-align: center;
+	font-size: 19px;
+}
+
+h4{
+	color: white;
+	text-shadow:2px 2px 1px #111111;
+	font-size: 66px;
+	text-align: center;
+	font-family: "Times New Roman";
+}
+h3{
+	color: white;
+}
+h2{
+	font-size: 20px
+}
+textarea{
+	height: 150px;
+}
+
+/* IDS */
+#esquerda{
+	float: left;
+}
+#fesquerda{
+	float: left;
+	padding-left: 130px;
+}
+#direita{
+	float: right;
+}
+#fdireita{
+	float: right;
+	padding-right: 130px;
+}
+#limpeza{
+	clear: both;
+}
+#logo{
+	float:left;
+}
+
+#menu{
+	margin-top:31px;
+	float:right;
+}
+
+#menu a{
+	padding:52px 13px;
+	text-decoration: none;
+	color:#eeeeee;
+	text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+	background-color:white;
+	color:#111;
+}
+
+/* class */
+.campo{
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+.conteudo{
+	display: flex;
+	justify-content: left;
+}
+.contato{
+	width: 100%;
+	max-width: 500px;
+}
+.formulario{
+	display: flex;
+	flex-direction: column;
+}
+.principal{
+	background-image: url(step1.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position: 80% 80%;
+	padding: 20px 80px 80px 80px;
+}
+.principal_sem_background{
+	padding: 20px 80px 80px 80px;
+}
